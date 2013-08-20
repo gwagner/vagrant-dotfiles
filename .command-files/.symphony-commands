@@ -1,0 +1,9 @@
+#!/bin/sh
+
+alias docent='php /var/www/app/console doctrine:generate:entities $PROJECT_BUNDLE'
+alias assetinstall='php /var/www/app/console assets:install'
+alias appconsole='php /var/www/app/console'
+
+command_notation 'docent' 'Convert doctrine entities from YAML to PHP Classes$'
+command_notation 'assetinstall' 'Installs all bundle assets for symphony2'
+command_notation 'appconsole' 'Shortcut to /var/www/app/console'
