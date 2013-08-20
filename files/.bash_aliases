@@ -1,8 +1,8 @@
 #!/bin/sh
 
 # Set some environment variables
-PROJECT_DATABASE=''
-PROJECT_BUNDLE=''
+export PROJECT_DATABASE=''
+export PROJECT_BUNDLE=''
 
 # Set text colors
 black=$(tput -Txterm setaf 0)
@@ -84,7 +84,7 @@ echo "##"
 echo "############################################################################"
 
 # Ubuntu Specific Aliases
-source ./.distro-specific/.ubuntu
+source ./.distro-file
 
 # move to the available web directory
 cd /var/www
