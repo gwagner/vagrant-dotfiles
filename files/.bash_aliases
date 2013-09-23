@@ -68,6 +68,7 @@ alias reboot='sudo /sbin/reboot'
 alias poweroff='sudo /sbin/poweroff'
 alias halt='sudo /sbin/halt'
 alias shutdown='sudo /sbin/shutdown'
+alias speedtest='wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip'
 
 echo ""
 echo "############################################################################"
